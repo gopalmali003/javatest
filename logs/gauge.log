@@ -1,0 +1,884 @@
+03-09-2022 13:22:06.883 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/xs240-gopmal/Desktop/Gopal/.gauge/screenshots
+03-09-2022 13:22:06.884 [Gauge] [DEBUG] Plugin java is already installed.
+03-09-2022 13:22:06.884 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2022 13:22:06.884 [Gauge] [DEBUG] Parsing started.
+03-09-2022 13:22:06.884 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2022 13:22:06.884 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2022 13:22:06.884 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2022 13:22:06.885 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2022 13:22:06.885 [Gauge] [DEBUG] Parsing completed.
+03-09-2022 13:22:06.887 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-09-2022 13:22:06.887 [java] [DEBUG] PATH: /opt/maven/bin:/opt/gradle/gradle-6.6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xs240-gopmal/.gauge/plugins/screenshot/0.1.0
+03-09-2022 13:22:06.887 [java] [DEBUG] JAVA_HOME: 
+03-09-2022 13:22:06.887 [java] [DEBUG] gauge_project_root: 
+03-09-2022 13:22:06.887 [java] [DEBUG] gauge_parallel_streams_count: 
+03-09-2022 13:22:06.887 [java] [DEBUG] gauge_reports_dir: reports
+03-09-2022 13:22:06.887 [java] [DEBUG] overwrite_reports: true
+03-09-2022 13:22:06.887 [java] [DEBUG] logs_directory: logs
+03-09-2022 13:22:06.887 [java] [DEBUG] enable_multithreading: false
+03-09-2022 13:22:06.887 [java] [DEBUG] gauge_specs_dir: specs
+03-09-2022 13:22:06.887 [java] [DEBUG] csv_delimiter: ,
+03-09-2022 13:22:06.887 [java] [DEBUG] gauge_java_home: 
+03-09-2022 13:22:06.887 [java] [DEBUG] gauge_custom_build_path: 
+03-09-2022 13:22:06.887 [java] [DEBUG] gauge_additional_libs: libs/*
+03-09-2022 13:22:06.887 [java] [DEBUG] gauge_jvm_args: 
+03-09-2022 13:22:06.887 [java] [DEBUG] gauge_custom_compile_dir: 
+03-09-2022 13:22:06.887 [java] [DEBUG] gauge_clear_state_level: scenario
+03-09-2022 13:22:06.887 [java] [DEBUG] ***** END *****
+03-09-2022 13:22:07.529 [Gauge] [DEBUG] Checking updates...
+03-09-2022 13:22:07.529 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:22:08.288 [java] [ERROR] Installed version of gauge-java (0.9.1) does not match with dependency gauge-java (0.7.15) specified in pom.xml file
+03-09-2022 13:22:08.289 [java] [DEBUG] classpath set to /home/xs240-gopmal/Desktop/Gopal/target/test-classes:/home/xs240-gopmal/Desktop/Gopal/target/classes:/home/xs240-gopmal/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/home/xs240-gopmal/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/home/xs240-gopmal/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/xs240-gopmal/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/xs240-gopmal/.m2/repository/org/json/json/20210307/json-20210307.jar:/home/xs240-gopmal/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/xs240-gopmal/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/home/xs240-gopmal/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/home/xs240-gopmal/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/xs240-gopmal/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/home/xs240-gopmal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/home/xs240-gopmal/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/xs240-gopmal/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/xs240-gopmal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/xs240-gopmal/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.0/webdrivermanager-4.4.0.jar:/home/xs240-gopmal/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/xs240-gopmal/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/home/xs240-gopmal/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/xs240-gopmal/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/xs240-gopmal/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/xs240-gopmal/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/xs240-gopmal/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+03-09-2022 13:22:08.289 [java] [DEBUG] found java executable in java
+03-09-2022 13:22:08.289 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-09-2022 13:22:08.289 [java] [DEBUG] stdout/stderr is logged to logs/518429-java.out
+03-09-2022 13:22:08.372 [java] [DEBUG] multithreading is set to false
+03-09-2022 13:22:08.561 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-09-2022 13:22:08.622 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-09-2022 13:22:08.622 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-09-2022 13:22:08.622 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-09-2022 13:22:08.784 [java] [DEBUG] gauge-java took 412milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-09-2022 13:22:08.784 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 412
+03-09-2022 13:22:08.784 [java] [DEBUG] starting gRPC server...
+03-09-2022 13:22:08.843 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 46511
+03-09-2022 13:22:08.888 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:22:08.910 [Gauge] [DEBUG] Successfully made the connection with runner with port: 46511
+03-09-2022 13:22:08.910 [Gauge] [DEBUG] Validation started.
+03-09-2022 13:22:08.971 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:22:09.051 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:22:09.533 [java] [DEBUG] Scanning packages for steps
+03-09-2022 13:22:09.539 [java] [DEBUG] Comparing 'StepImplementation.navigateToTheSite' and 'StepImplementation.navigateToTheSite'
+03-09-2022 13:22:09.539 [java] [DEBUG] Found Navigate to the site in current project scope.
+03-09-2022 13:22:09.539 [java] [DEBUG] Scanning packages for hooks
+03-09-2022 13:22:09.548 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-09-2022 13:22:09.548 [java] [DEBUG] 	Navigate to the site : public void navigateToTheSite()
+03-09-2022 13:22:10.233 [Gauge] [DEBUG] Validation completed.
+03-09-2022 13:22:10.233 [Gauge] [DEBUG] Run started
+03-09-2022 13:22:10.233 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2022 13:22:10.292 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 46325
+03-09-2022 13:22:10.294 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 46325
+03-09-2022 13:22:10.294 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2022 13:22:12.322 [java] [ERROR] Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 26655
+03-09-2022 13:22:12.322 [java] [ERROR] Only local connections are allowed.
+03-09-2022 13:22:12.322 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+03-09-2022 13:22:12.323 [java] [ERROR] ChromeDriver was started successfully.
+03-09-2022 13:22:12.729 [java] [ERROR] Sep 03, 2022 1:22:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+03-09-2022 13:22:12.729 [java] [ERROR] INFO: Detected dialect: W3C
+03-09-2022 13:22:12.740 [Gauge] [INFO] # Testing
+03-09-2022 13:22:12.748 [Gauge] [INFO] ## Xenonstack
+03-09-2022 13:22:12.756 [Gauge] [DEBUG] * Navigate to the site
+03-09-2022 13:22:12.760 [java] [DEBUG] Executing 'Navigate to the site' using 'class StepImplementation.navigateToTheSite
+03-09-2022 13:22:15.680 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2022 13:22:15.724 [html-report] [INFO] Successfully generated html-report to => /home/xs240-gopmal/Desktop/Gopal/reports/html-report/index.html
+03-09-2022 13:22:15.724 [html-report] [DEBUG] Done generating HTML report using theme from /home/xs240-gopmal/.gauge/plugins/html-report/4.1.4/themes/default
+03-09-2022 13:22:15.724 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2022 13:22:15.725 [java] [DEBUG] Killing Java runner...
+03-09-2022 13:22:15.726 [java] [DEBUG] Stopping execution pool...
+03-09-2022 13:22:15.726 [java] [DEBUG] Shutting down grpc server...
+03-09-2022 13:22:15.731 [java] [DEBUG] Runner killed gracefully.
+03-09-2022 13:22:16.132 [Gauge] [DEBUG] Runner with PID:518429 has exited
+03-09-2022 13:22:16.132 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 13:22:16.132 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 13:22:16.132 [Gauge] [INFO] 
+Total time taken: 5.446s
+03-09-2022 13:54:56.589 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/xs240-gopmal/Desktop/Gopal/.gauge/screenshots
+03-09-2022 13:54:56.590 [Gauge] [DEBUG] Plugin java is already installed.
+03-09-2022 13:54:56.590 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2022 13:54:56.590 [Gauge] [DEBUG] Parsing started.
+03-09-2022 13:54:56.590 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2022 13:54:56.591 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2022 13:54:56.591 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2022 13:54:56.591 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2022 13:54:56.591 [Gauge] [DEBUG] Parsing completed.
+03-09-2022 13:54:56.593 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-09-2022 13:54:56.593 [java] [DEBUG] PATH: /opt/maven/bin:/opt/gradle/gradle-6.6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xs240-gopmal/.gauge/plugins/screenshot/0.1.0
+03-09-2022 13:54:56.593 [java] [DEBUG] JAVA_HOME: 
+03-09-2022 13:54:56.593 [java] [DEBUG] gauge_project_root: 
+03-09-2022 13:54:56.593 [java] [DEBUG] gauge_parallel_streams_count: 
+03-09-2022 13:54:56.593 [java] [DEBUG] gauge_reports_dir: reports
+03-09-2022 13:54:56.593 [java] [DEBUG] overwrite_reports: true
+03-09-2022 13:54:56.593 [java] [DEBUG] logs_directory: logs
+03-09-2022 13:54:56.593 [java] [DEBUG] enable_multithreading: false
+03-09-2022 13:54:56.593 [java] [DEBUG] gauge_specs_dir: specs
+03-09-2022 13:54:56.593 [java] [DEBUG] csv_delimiter: ,
+03-09-2022 13:54:56.593 [java] [DEBUG] gauge_java_home: 
+03-09-2022 13:54:56.593 [java] [DEBUG] gauge_custom_build_path: 
+03-09-2022 13:54:56.593 [java] [DEBUG] gauge_additional_libs: libs/*
+03-09-2022 13:54:56.593 [java] [DEBUG] gauge_jvm_args: 
+03-09-2022 13:54:56.593 [java] [DEBUG] gauge_custom_compile_dir: 
+03-09-2022 13:54:56.593 [java] [DEBUG] gauge_clear_state_level: scenario
+03-09-2022 13:54:56.593 [java] [DEBUG] ***** END *****
+03-09-2022 13:54:57.221 [Gauge] [DEBUG] Checking updates...
+03-09-2022 13:54:57.222 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:54:57.528 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:54:57.623 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:54:57.716 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:54:58.364 [java] [ERROR] Installed version of gauge-java (0.9.1) does not match with dependency gauge-java (0.7.15) specified in pom.xml file
+03-09-2022 13:54:58.364 [java] [DEBUG] classpath set to /home/xs240-gopmal/Desktop/Gopal/target/test-classes:/home/xs240-gopmal/Desktop/Gopal/target/classes:/home/xs240-gopmal/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/home/xs240-gopmal/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/home/xs240-gopmal/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/xs240-gopmal/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/xs240-gopmal/.m2/repository/org/json/json/20210307/json-20210307.jar:/home/xs240-gopmal/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/xs240-gopmal/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/home/xs240-gopmal/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/home/xs240-gopmal/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/xs240-gopmal/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/home/xs240-gopmal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/home/xs240-gopmal/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/xs240-gopmal/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/xs240-gopmal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/xs240-gopmal/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.0/webdrivermanager-4.4.0.jar:/home/xs240-gopmal/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/xs240-gopmal/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/home/xs240-gopmal/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/xs240-gopmal/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/xs240-gopmal/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/xs240-gopmal/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/xs240-gopmal/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+03-09-2022 13:54:58.364 [java] [DEBUG] found java executable in java
+03-09-2022 13:54:58.364 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-09-2022 13:54:58.364 [java] [DEBUG] stdout/stderr is logged to logs/533077-java.out
+03-09-2022 13:54:58.455 [java] [DEBUG] multithreading is set to false
+03-09-2022 13:54:58.662 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-09-2022 13:54:58.727 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-09-2022 13:54:58.727 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-09-2022 13:54:58.727 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-09-2022 13:54:58.914 [java] [DEBUG] gauge-java took 458milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-09-2022 13:54:58.914 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 458
+03-09-2022 13:54:58.914 [java] [DEBUG] starting gRPC server...
+03-09-2022 13:54:58.994 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 35151
+03-09-2022 13:54:59.074 [Gauge] [DEBUG] Successfully made the connection with runner with port: 35151
+03-09-2022 13:54:59.074 [Gauge] [DEBUG] Validation started.
+03-09-2022 13:54:59.781 [java] [DEBUG] Scanning packages for steps
+03-09-2022 13:54:59.790 [java] [DEBUG] Comparing 'StepImplementation.navigateToTheSite' and 'StepImplementation.navigateToTheSite'
+03-09-2022 13:54:59.790 [java] [DEBUG] Found Navigate to the site in current project scope.
+03-09-2022 13:54:59.790 [java] [DEBUG] Scanning packages for hooks
+03-09-2022 13:54:59.793 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-09-2022 13:54:59.793 [java] [DEBUG] 	Navigate to the site : public void navigateToTheSite()
+03-09-2022 13:55:00.556 [Gauge] [DEBUG] Validation completed.
+03-09-2022 13:55:00.556 [Gauge] [DEBUG] Run started
+03-09-2022 13:55:00.557 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2022 13:55:00.560 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 33477
+03-09-2022 13:55:00.560 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 33477
+03-09-2022 13:55:00.560 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2022 13:55:00.945 [java] [ERROR] Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 16780
+03-09-2022 13:55:00.945 [java] [ERROR] Only local connections are allowed.
+03-09-2022 13:55:00.945 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+03-09-2022 13:55:00.945 [java] [ERROR] ChromeDriver was started successfully.
+03-09-2022 13:55:01.452 [java] [ERROR] Sep 03, 2022 1:55:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+03-09-2022 13:55:01.452 [java] [ERROR] INFO: Detected dialect: W3C
+03-09-2022 13:55:01.474 [Gauge] [INFO] # Testing
+03-09-2022 13:55:01.482 [Gauge] [INFO] ## Xenonstack
+03-09-2022 13:55:01.497 [Gauge] [DEBUG] * Navigate to the site
+03-09-2022 13:55:01.512 [java] [DEBUG] Executing 'Navigate to the site' using 'class StepImplementation.navigateToTheSite
+03-09-2022 13:55:04.388 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2022 13:55:04.393 [html-report] [INFO] Successfully generated html-report to => /home/xs240-gopmal/Desktop/Gopal/reports/html-report/index.html
+03-09-2022 13:55:04.393 [html-report] [DEBUG] Done generating HTML report using theme from /home/xs240-gopmal/.gauge/plugins/html-report/4.1.4/themes/default
+03-09-2022 13:55:04.393 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2022 13:55:04.394 [java] [DEBUG] Killing Java runner...
+03-09-2022 13:55:04.395 [java] [DEBUG] Stopping execution pool...
+03-09-2022 13:55:04.395 [java] [DEBUG] Shutting down grpc server...
+03-09-2022 13:55:04.407 [java] [DEBUG] Runner killed gracefully.
+03-09-2022 13:55:04.805 [Gauge] [DEBUG] Runner with PID:533077 has exited
+03-09-2022 13:55:04.805 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 13:55:04.805 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 13:55:04.805 [Gauge] [INFO] 
+Total time taken: 3.83s
+03-09-2022 13:56:02.287 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/xs240-gopmal/Desktop/Gopal/.gauge/screenshots
+03-09-2022 13:56:02.288 [Gauge] [DEBUG] Plugin java is already installed.
+03-09-2022 13:56:02.288 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2022 13:56:02.288 [Gauge] [DEBUG] Parsing started.
+03-09-2022 13:56:02.288 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2022 13:56:02.288 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2022 13:56:02.288 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2022 13:56:02.289 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2022 13:56:02.289 [Gauge] [DEBUG] Parsing completed.
+03-09-2022 13:56:02.291 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-09-2022 13:56:02.291 [java] [DEBUG] PATH: /opt/maven/bin:/opt/gradle/gradle-6.6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xs240-gopmal/.gauge/plugins/screenshot/0.1.0
+03-09-2022 13:56:02.291 [java] [DEBUG] JAVA_HOME: 
+03-09-2022 13:56:02.291 [java] [DEBUG] gauge_project_root: 
+03-09-2022 13:56:02.291 [java] [DEBUG] gauge_parallel_streams_count: 
+03-09-2022 13:56:02.291 [java] [DEBUG] gauge_reports_dir: reports
+03-09-2022 13:56:02.291 [java] [DEBUG] overwrite_reports: true
+03-09-2022 13:56:02.291 [java] [DEBUG] logs_directory: logs
+03-09-2022 13:56:02.291 [java] [DEBUG] enable_multithreading: false
+03-09-2022 13:56:02.291 [java] [DEBUG] gauge_specs_dir: specs
+03-09-2022 13:56:02.291 [java] [DEBUG] csv_delimiter: ,
+03-09-2022 13:56:02.291 [java] [DEBUG] gauge_java_home: 
+03-09-2022 13:56:02.291 [java] [DEBUG] gauge_custom_build_path: 
+03-09-2022 13:56:02.291 [java] [DEBUG] gauge_additional_libs: libs/*
+03-09-2022 13:56:02.291 [java] [DEBUG] gauge_jvm_args: 
+03-09-2022 13:56:02.291 [java] [DEBUG] gauge_custom_compile_dir: 
+03-09-2022 13:56:02.291 [java] [DEBUG] gauge_clear_state_level: scenario
+03-09-2022 13:56:02.291 [java] [DEBUG] ***** END *****
+03-09-2022 13:56:03.260 [Gauge] [DEBUG] Checking updates...
+03-09-2022 13:56:03.260 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:56:03.667 [java] [ERROR] Installed version of gauge-java (0.9.1) does not match with dependency gauge-java (0.7.15) specified in pom.xml file
+03-09-2022 13:56:03.668 [java] [DEBUG] classpath set to /home/xs240-gopmal/Desktop/Gopal/target/test-classes:/home/xs240-gopmal/Desktop/Gopal/target/classes:/home/xs240-gopmal/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/home/xs240-gopmal/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/home/xs240-gopmal/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/xs240-gopmal/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/xs240-gopmal/.m2/repository/org/json/json/20210307/json-20210307.jar:/home/xs240-gopmal/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/xs240-gopmal/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/home/xs240-gopmal/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/home/xs240-gopmal/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/xs240-gopmal/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/home/xs240-gopmal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/home/xs240-gopmal/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/xs240-gopmal/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/xs240-gopmal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/xs240-gopmal/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.0/webdrivermanager-4.4.0.jar:/home/xs240-gopmal/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/xs240-gopmal/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/home/xs240-gopmal/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/xs240-gopmal/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/xs240-gopmal/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/xs240-gopmal/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/xs240-gopmal/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+03-09-2022 13:56:03.668 [java] [DEBUG] found java executable in java
+03-09-2022 13:56:03.668 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-09-2022 13:56:03.668 [java] [DEBUG] stdout/stderr is logged to logs/533819-java.out
+03-09-2022 13:56:03.750 [java] [DEBUG] multithreading is set to false
+03-09-2022 13:56:03.835 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:56:03.941 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-09-2022 13:56:03.944 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:56:04.003 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-09-2022 13:56:04.003 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-09-2022 13:56:04.003 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-09-2022 13:56:04.037 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:56:04.184 [java] [DEBUG] gauge-java took 434milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-09-2022 13:56:04.184 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 434
+03-09-2022 13:56:04.184 [java] [DEBUG] starting gRPC server...
+03-09-2022 13:56:04.241 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 43133
+03-09-2022 13:56:04.304 [Gauge] [DEBUG] Successfully made the connection with runner with port: 43133
+03-09-2022 13:56:04.305 [Gauge] [DEBUG] Validation started.
+03-09-2022 13:56:04.941 [java] [DEBUG] Scanning packages for steps
+03-09-2022 13:56:04.948 [java] [DEBUG] Comparing 'StepImplementation.navigateToTheSite' and 'StepImplementation.navigateToTheSite'
+03-09-2022 13:56:04.948 [java] [DEBUG] Found Navigate to the site in current project scope.
+03-09-2022 13:56:04.948 [java] [DEBUG] Scanning packages for hooks
+03-09-2022 13:56:04.951 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-09-2022 13:56:04.951 [java] [DEBUG] 	Navigate to the site : public void navigateToTheSite()
+03-09-2022 13:56:05.657 [Gauge] [DEBUG] Validation completed.
+03-09-2022 13:56:05.657 [Gauge] [DEBUG] Run started
+03-09-2022 13:56:05.657 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2022 13:56:05.660 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 33005
+03-09-2022 13:56:05.661 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 33005
+03-09-2022 13:56:05.661 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2022 13:56:05.994 [java] [ERROR] Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 27934
+03-09-2022 13:56:05.994 [java] [ERROR] Only local connections are allowed.
+03-09-2022 13:56:05.995 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+03-09-2022 13:56:05.995 [java] [ERROR] ChromeDriver was started successfully.
+03-09-2022 13:56:06.393 [java] [ERROR] Sep 03, 2022 1:56:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+03-09-2022 13:56:06.393 [java] [ERROR] INFO: Detected dialect: W3C
+03-09-2022 13:56:06.404 [Gauge] [INFO] # Testing
+03-09-2022 13:56:06.410 [Gauge] [INFO] ## Xenonstack
+03-09-2022 13:56:06.417 [Gauge] [DEBUG] * Navigate to the site
+03-09-2022 13:56:06.432 [java] [DEBUG] Executing 'Navigate to the site' using 'class StepImplementation.navigateToTheSite
+03-09-2022 13:56:08.320 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2022 13:56:08.324 [html-report] [INFO] Successfully generated html-report to => /home/xs240-gopmal/Desktop/Gopal/reports/html-report/index.html
+03-09-2022 13:56:08.324 [html-report] [DEBUG] Done generating HTML report using theme from /home/xs240-gopmal/.gauge/plugins/html-report/4.1.4/themes/default
+03-09-2022 13:56:08.324 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2022 13:56:08.325 [java] [DEBUG] Killing Java runner...
+03-09-2022 13:56:08.327 [java] [DEBUG] Stopping execution pool...
+03-09-2022 13:56:08.327 [java] [DEBUG] Shutting down grpc server...
+03-09-2022 13:56:08.332 [java] [DEBUG] Runner killed gracefully.
+03-09-2022 13:56:08.731 [Gauge] [DEBUG] Runner with PID:533819 has exited
+03-09-2022 13:56:08.732 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 13:56:08.732 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 13:56:08.732 [Gauge] [INFO] 
+Total time taken: 2.663s
+03-09-2022 13:57:43.499 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/xs240-gopmal/Desktop/Gopal/.gauge/screenshots
+03-09-2022 13:57:43.499 [Gauge] [DEBUG] Plugin java is already installed.
+03-09-2022 13:57:43.499 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2022 13:57:43.500 [Gauge] [DEBUG] Parsing started.
+03-09-2022 13:57:43.500 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2022 13:57:43.500 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2022 13:57:43.500 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2022 13:57:43.500 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2022 13:57:43.500 [Gauge] [DEBUG] Parsing completed.
+03-09-2022 13:57:43.502 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-09-2022 13:57:43.502 [java] [DEBUG] PATH: /opt/maven/bin:/opt/gradle/gradle-6.6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xs240-gopmal/.gauge/plugins/screenshot/0.1.0
+03-09-2022 13:57:43.502 [java] [DEBUG] JAVA_HOME: 
+03-09-2022 13:57:43.502 [java] [DEBUG] gauge_project_root: 
+03-09-2022 13:57:43.502 [java] [DEBUG] gauge_parallel_streams_count: 
+03-09-2022 13:57:43.502 [java] [DEBUG] gauge_reports_dir: reports
+03-09-2022 13:57:43.502 [java] [DEBUG] overwrite_reports: true
+03-09-2022 13:57:43.502 [java] [DEBUG] logs_directory: logs
+03-09-2022 13:57:43.502 [java] [DEBUG] enable_multithreading: false
+03-09-2022 13:57:43.502 [java] [DEBUG] gauge_specs_dir: specs
+03-09-2022 13:57:43.502 [java] [DEBUG] csv_delimiter: ,
+03-09-2022 13:57:43.502 [java] [DEBUG] gauge_java_home: 
+03-09-2022 13:57:43.502 [java] [DEBUG] gauge_custom_build_path: 
+03-09-2022 13:57:43.502 [java] [DEBUG] gauge_additional_libs: libs/*
+03-09-2022 13:57:43.502 [java] [DEBUG] gauge_jvm_args: 
+03-09-2022 13:57:43.502 [java] [DEBUG] gauge_custom_compile_dir: 
+03-09-2022 13:57:43.502 [java] [DEBUG] gauge_clear_state_level: scenario
+03-09-2022 13:57:43.502 [java] [DEBUG] ***** END *****
+03-09-2022 13:57:44.102 [Gauge] [DEBUG] Checking updates...
+03-09-2022 13:57:44.102 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:57:44.389 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:57:44.469 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:57:44.550 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:57:44.953 [java] [ERROR] Installed version of gauge-java (0.9.1) does not match with dependency gauge-java (0.7.15) specified in pom.xml file
+03-09-2022 13:57:44.953 [java] [DEBUG] classpath set to /home/xs240-gopmal/Desktop/Gopal/target/test-classes:/home/xs240-gopmal/Desktop/Gopal/target/classes:/home/xs240-gopmal/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/home/xs240-gopmal/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/home/xs240-gopmal/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/xs240-gopmal/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/xs240-gopmal/.m2/repository/org/json/json/20210307/json-20210307.jar:/home/xs240-gopmal/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/xs240-gopmal/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/home/xs240-gopmal/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/home/xs240-gopmal/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/xs240-gopmal/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/home/xs240-gopmal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/home/xs240-gopmal/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/xs240-gopmal/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/xs240-gopmal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/xs240-gopmal/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.0/webdrivermanager-4.4.0.jar:/home/xs240-gopmal/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/xs240-gopmal/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/home/xs240-gopmal/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/xs240-gopmal/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/xs240-gopmal/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/xs240-gopmal/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/xs240-gopmal/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+03-09-2022 13:57:44.953 [java] [DEBUG] found java executable in java
+03-09-2022 13:57:44.953 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-09-2022 13:57:44.953 [java] [DEBUG] stdout/stderr is logged to logs/534910-java.out
+03-09-2022 13:57:45.030 [java] [DEBUG] multithreading is set to false
+03-09-2022 13:57:45.223 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-09-2022 13:57:45.285 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-09-2022 13:57:45.285 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-09-2022 13:57:45.285 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-09-2022 13:57:45.442 [java] [DEBUG] gauge-java took 412milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-09-2022 13:57:45.442 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 412
+03-09-2022 13:57:45.442 [java] [DEBUG] starting gRPC server...
+03-09-2022 13:57:45.506 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 36385
+03-09-2022 13:57:45.570 [Gauge] [DEBUG] Successfully made the connection with runner with port: 36385
+03-09-2022 13:57:45.570 [Gauge] [DEBUG] Validation started.
+03-09-2022 13:57:46.293 [java] [DEBUG] Scanning packages for steps
+03-09-2022 13:57:46.299 [java] [DEBUG] Comparing 'StepImplementation.navigateToTheSite' and 'StepImplementation.navigateToTheSite'
+03-09-2022 13:57:46.299 [java] [DEBUG] Found Navigate to the site in current project scope.
+03-09-2022 13:57:46.299 [java] [DEBUG] Scanning packages for hooks
+03-09-2022 13:57:46.302 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-09-2022 13:57:46.302 [java] [DEBUG] 	Navigate to the site : public void navigateToTheSite()
+03-09-2022 13:57:46.987 [Gauge] [DEBUG] Validation completed.
+03-09-2022 13:57:46.987 [Gauge] [DEBUG] Run started
+03-09-2022 13:57:46.987 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2022 13:57:46.990 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 35433
+03-09-2022 13:57:46.991 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 35433
+03-09-2022 13:57:46.991 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2022 13:57:47.312 [java] [ERROR] Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 11228
+03-09-2022 13:57:47.312 [java] [ERROR] Only local connections are allowed.
+03-09-2022 13:57:47.312 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+03-09-2022 13:57:47.312 [java] [ERROR] ChromeDriver was started successfully.
+03-09-2022 13:57:47.727 [java] [ERROR] Sep 03, 2022 1:57:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+03-09-2022 13:57:47.727 [java] [ERROR] INFO: Detected dialect: W3C
+03-09-2022 13:57:47.738 [Gauge] [INFO] # Testing
+03-09-2022 13:57:47.753 [Gauge] [INFO] ## Xenonstack
+03-09-2022 13:57:47.763 [Gauge] [DEBUG] * Navigate to the site
+03-09-2022 13:57:47.770 [java] [DEBUG] Executing 'Navigate to the site' using 'class StepImplementation.navigateToTheSite
+03-09-2022 13:57:50.002 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2022 13:57:50.007 [html-report] [INFO] Successfully generated html-report to => /home/xs240-gopmal/Desktop/Gopal/reports/html-report/index.html
+03-09-2022 13:57:50.007 [html-report] [DEBUG] Done generating HTML report using theme from /home/xs240-gopmal/.gauge/plugins/html-report/4.1.4/themes/default
+03-09-2022 13:57:50.007 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2022 13:57:50.008 [java] [DEBUG] Killing Java runner...
+03-09-2022 13:57:50.009 [java] [DEBUG] Stopping execution pool...
+03-09-2022 13:57:50.009 [java] [DEBUG] Shutting down grpc server...
+03-09-2022 13:57:50.014 [java] [DEBUG] Runner killed gracefully.
+03-09-2022 13:57:50.415 [Gauge] [DEBUG] Runner with PID:534910 has exited
+03-09-2022 13:57:50.415 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 13:57:50.415 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 13:57:50.415 [Gauge] [INFO] 
+Total time taken: 3.012s
+03-09-2022 13:57:53.323 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/xs240-gopmal/Desktop/Gopal/.gauge/screenshots
+03-09-2022 13:57:53.323 [Gauge] [DEBUG] Plugin java is already installed.
+03-09-2022 13:57:53.323 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2022 13:57:53.324 [Gauge] [DEBUG] Parsing started.
+03-09-2022 13:57:53.324 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2022 13:57:53.324 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2022 13:57:53.324 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2022 13:57:53.324 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2022 13:57:53.324 [Gauge] [DEBUG] Parsing completed.
+03-09-2022 13:57:53.326 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-09-2022 13:57:53.327 [java] [DEBUG] PATH: /opt/maven/bin:/opt/gradle/gradle-6.6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xs240-gopmal/.gauge/plugins/screenshot/0.1.0
+03-09-2022 13:57:53.327 [java] [DEBUG] JAVA_HOME: 
+03-09-2022 13:57:53.327 [java] [DEBUG] gauge_project_root: 
+03-09-2022 13:57:53.327 [java] [DEBUG] gauge_parallel_streams_count: 
+03-09-2022 13:57:53.327 [java] [DEBUG] gauge_reports_dir: reports
+03-09-2022 13:57:53.327 [java] [DEBUG] overwrite_reports: true
+03-09-2022 13:57:53.327 [java] [DEBUG] logs_directory: logs
+03-09-2022 13:57:53.327 [java] [DEBUG] enable_multithreading: false
+03-09-2022 13:57:53.327 [java] [DEBUG] gauge_specs_dir: specs
+03-09-2022 13:57:53.327 [java] [DEBUG] csv_delimiter: ,
+03-09-2022 13:57:53.327 [java] [DEBUG] gauge_java_home: 
+03-09-2022 13:57:53.327 [java] [DEBUG] gauge_custom_build_path: 
+03-09-2022 13:57:53.327 [java] [DEBUG] gauge_additional_libs: libs/*
+03-09-2022 13:57:53.327 [java] [DEBUG] gauge_jvm_args: 
+03-09-2022 13:57:53.327 [java] [DEBUG] gauge_custom_compile_dir: 
+03-09-2022 13:57:53.327 [java] [DEBUG] gauge_clear_state_level: scenario
+03-09-2022 13:57:53.327 [java] [DEBUG] ***** END *****
+03-09-2022 13:57:53.526 [Gauge] [DEBUG] Checking updates...
+03-09-2022 13:57:53.527 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:57:53.801 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:57:53.891 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:57:54.034 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 13:57:54.748 [java] [ERROR] Installed version of gauge-java (0.9.1) does not match with dependency gauge-java (0.7.15) specified in pom.xml file
+03-09-2022 13:57:54.748 [java] [DEBUG] classpath set to /home/xs240-gopmal/Desktop/Gopal/target/test-classes:/home/xs240-gopmal/Desktop/Gopal/target/classes:/home/xs240-gopmal/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/home/xs240-gopmal/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/home/xs240-gopmal/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/xs240-gopmal/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/xs240-gopmal/.m2/repository/org/json/json/20210307/json-20210307.jar:/home/xs240-gopmal/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/xs240-gopmal/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/home/xs240-gopmal/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/home/xs240-gopmal/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/xs240-gopmal/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/home/xs240-gopmal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/home/xs240-gopmal/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/xs240-gopmal/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/xs240-gopmal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/xs240-gopmal/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.0/webdrivermanager-4.4.0.jar:/home/xs240-gopmal/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/xs240-gopmal/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/home/xs240-gopmal/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/xs240-gopmal/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/xs240-gopmal/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/xs240-gopmal/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/xs240-gopmal/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+03-09-2022 13:57:54.748 [java] [DEBUG] found java executable in java
+03-09-2022 13:57:54.748 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-09-2022 13:57:54.748 [java] [DEBUG] stdout/stderr is logged to logs/535278-java.out
+03-09-2022 13:57:54.822 [java] [DEBUG] multithreading is set to false
+03-09-2022 13:57:55.016 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-09-2022 13:57:55.078 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-09-2022 13:57:55.078 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-09-2022 13:57:55.078 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-09-2022 13:57:55.246 [java] [DEBUG] gauge-java took 424milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-09-2022 13:57:55.246 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 424
+03-09-2022 13:57:55.246 [java] [DEBUG] starting gRPC server...
+03-09-2022 13:57:55.303 [java] [DEBUG] started gRPC server on port 34077
+03-09-2022 13:57:55.303 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34077
+03-09-2022 13:57:55.367 [Gauge] [DEBUG] Successfully made the connection with runner with port: 34077
+03-09-2022 13:57:55.367 [Gauge] [DEBUG] Validation started.
+03-09-2022 13:57:56.015 [java] [DEBUG] Scanning packages for steps
+03-09-2022 13:57:56.022 [java] [DEBUG] Comparing 'StepImplementation.navigateToTheSite' and 'StepImplementation.navigateToTheSite'
+03-09-2022 13:57:56.022 [java] [DEBUG] Found Navigate to the site in current project scope.
+03-09-2022 13:57:56.022 [java] [DEBUG] Scanning packages for hooks
+03-09-2022 13:57:56.025 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-09-2022 13:57:56.025 [java] [DEBUG] 	Navigate to the site : public void navigateToTheSite()
+03-09-2022 13:57:56.722 [Gauge] [DEBUG] Validation completed.
+03-09-2022 13:57:56.722 [Gauge] [DEBUG] Run started
+03-09-2022 13:57:56.722 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2022 13:57:56.725 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34069
+03-09-2022 13:57:56.726 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 34069
+03-09-2022 13:57:56.726 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2022 13:57:57.036 [java] [ERROR] Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 5740
+03-09-2022 13:57:57.039 [java] [ERROR] Only local connections are allowed.
+03-09-2022 13:57:57.039 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+03-09-2022 13:57:57.039 [java] [ERROR] ChromeDriver was started successfully.
+03-09-2022 13:57:57.437 [java] [ERROR] Sep 03, 2022 1:57:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+03-09-2022 13:57:57.437 [java] [ERROR] INFO: Detected dialect: W3C
+03-09-2022 13:57:57.450 [Gauge] [INFO] # Testing
+03-09-2022 13:57:57.461 [Gauge] [INFO] ## Xenonstack
+03-09-2022 13:57:57.471 [Gauge] [DEBUG] * Navigate to the site
+03-09-2022 13:57:57.477 [java] [DEBUG] Executing 'Navigate to the site' using 'class StepImplementation.navigateToTheSite
+03-09-2022 13:57:59.838 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2022 13:57:59.843 [html-report] [INFO] Successfully generated html-report to => /home/xs240-gopmal/Desktop/Gopal/reports/html-report/index.html
+03-09-2022 13:57:59.843 [html-report] [DEBUG] Done generating HTML report using theme from /home/xs240-gopmal/.gauge/plugins/html-report/4.1.4/themes/default
+03-09-2022 13:57:59.843 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2022 13:57:59.844 [java] [DEBUG] Killing Java runner...
+03-09-2022 13:57:59.845 [java] [DEBUG] Stopping execution pool...
+03-09-2022 13:57:59.845 [java] [DEBUG] Shutting down grpc server...
+03-09-2022 13:57:59.849 [java] [DEBUG] Runner killed gracefully.
+03-09-2022 13:58:00.250 [Gauge] [DEBUG] Runner with PID:535278 has exited
+03-09-2022 13:58:00.250 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 13:58:00.250 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 13:58:00.250 [Gauge] [INFO] 
+Total time taken: 3.116s
+03-09-2022 14:17:39.196 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/xs240-gopmal/Desktop/Gopal/.gauge/screenshots
+03-09-2022 14:17:39.196 [Gauge] [DEBUG] Plugin java is already installed.
+03-09-2022 14:17:39.196 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2022 14:17:39.196 [Gauge] [DEBUG] Parsing started.
+03-09-2022 14:17:39.196 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2022 14:17:39.197 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2022 14:17:39.197 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2022 14:17:39.197 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2022 14:17:39.197 [Gauge] [DEBUG] Parsing completed.
+03-09-2022 14:17:39.199 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-09-2022 14:17:39.199 [java] [DEBUG] PATH: /opt/maven/bin:/opt/gradle/gradle-6.6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xs240-gopmal/.gauge/plugins/screenshot/0.1.0
+03-09-2022 14:17:39.199 [java] [DEBUG] JAVA_HOME: 
+03-09-2022 14:17:39.199 [java] [DEBUG] gauge_project_root: 
+03-09-2022 14:17:39.199 [java] [DEBUG] gauge_parallel_streams_count: 
+03-09-2022 14:17:39.199 [java] [DEBUG] gauge_reports_dir: reports
+03-09-2022 14:17:39.199 [java] [DEBUG] overwrite_reports: true
+03-09-2022 14:17:39.199 [java] [DEBUG] logs_directory: logs
+03-09-2022 14:17:39.199 [java] [DEBUG] enable_multithreading: false
+03-09-2022 14:17:39.199 [java] [DEBUG] gauge_specs_dir: specs
+03-09-2022 14:17:39.199 [java] [DEBUG] csv_delimiter: ,
+03-09-2022 14:17:39.199 [java] [DEBUG] gauge_java_home: 
+03-09-2022 14:17:39.199 [java] [DEBUG] gauge_custom_build_path: 
+03-09-2022 14:17:39.199 [java] [DEBUG] gauge_additional_libs: libs/*
+03-09-2022 14:17:39.199 [java] [DEBUG] gauge_jvm_args: 
+03-09-2022 14:17:39.199 [java] [DEBUG] gauge_custom_compile_dir: 
+03-09-2022 14:17:39.199 [java] [DEBUG] gauge_clear_state_level: scenario
+03-09-2022 14:17:39.199 [java] [DEBUG] ***** END *****
+03-09-2022 14:17:39.840 [Gauge] [DEBUG] Checking updates...
+03-09-2022 14:17:39.840 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 14:17:40.300 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 14:17:40.392 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 14:17:40.494 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 14:17:40.582 [java] [ERROR] Installed version of gauge-java (0.9.1) does not match with dependency gauge-java (0.7.15) specified in pom.xml file
+03-09-2022 14:17:40.582 [java] [DEBUG] classpath set to /home/xs240-gopmal/Desktop/Gopal/target/test-classes:/home/xs240-gopmal/Desktop/Gopal/target/classes:/home/xs240-gopmal/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/home/xs240-gopmal/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/home/xs240-gopmal/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/xs240-gopmal/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/xs240-gopmal/.m2/repository/org/json/json/20210307/json-20210307.jar:/home/xs240-gopmal/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/xs240-gopmal/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/home/xs240-gopmal/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/home/xs240-gopmal/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/xs240-gopmal/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/home/xs240-gopmal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/home/xs240-gopmal/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/xs240-gopmal/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/xs240-gopmal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/xs240-gopmal/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.0/webdrivermanager-4.4.0.jar:/home/xs240-gopmal/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/xs240-gopmal/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/home/xs240-gopmal/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/xs240-gopmal/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/xs240-gopmal/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/xs240-gopmal/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/xs240-gopmal/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+03-09-2022 14:17:40.582 [java] [DEBUG] found java executable in java
+03-09-2022 14:17:40.582 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-09-2022 14:17:40.582 [java] [DEBUG] stdout/stderr is logged to logs/549719-java.out
+03-09-2022 14:17:40.666 [java] [DEBUG] multithreading is set to false
+03-09-2022 14:17:40.870 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-09-2022 14:17:40.929 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-09-2022 14:17:40.929 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-09-2022 14:17:40.929 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-09-2022 14:17:41.146 [java] [DEBUG] gauge-java took 479milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-09-2022 14:17:41.146 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 479
+03-09-2022 14:17:41.146 [java] [DEBUG] starting gRPC server...
+03-09-2022 14:17:41.201 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 40401
+03-09-2022 14:17:41.264 [Gauge] [DEBUG] Successfully made the connection with runner with port: 40401
+03-09-2022 14:17:41.264 [Gauge] [DEBUG] Validation started.
+03-09-2022 14:17:42.200 [java] [DEBUG] Scanning packages for steps
+03-09-2022 14:17:42.208 [java] [DEBUG] Comparing 'StepImplementation.navigateToTheSite' and 'StepImplementation.navigateToTheSite'
+03-09-2022 14:17:42.208 [java] [DEBUG] Found Navigate to the site in current project scope.
+03-09-2022 14:17:42.208 [java] [DEBUG] Comparing 'StepImplementation.enterUsernameAndPassword' and 'StepImplementation.enterUsernameAndPassword'
+03-09-2022 14:17:42.208 [java] [DEBUG] Found Enter username and password in current project scope.
+03-09-2022 14:17:42.208 [java] [DEBUG] Scanning packages for hooks
+03-09-2022 14:17:42.210 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-09-2022 14:17:42.210 [java] [DEBUG] 	Enter username and password : public void enterUsernameAndPassword()
+03-09-2022 14:17:42.210 [java] [DEBUG] 	Navigate to the site : public void navigateToTheSite()
+03-09-2022 14:17:43.184 [Gauge] [DEBUG] Validation completed.
+03-09-2022 14:17:43.184 [Gauge] [DEBUG] Run started
+03-09-2022 14:17:43.184 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2022 14:17:43.187 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 45253
+03-09-2022 14:17:43.188 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 45253
+03-09-2022 14:17:43.188 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2022 14:17:43.514 [java] [ERROR] Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 10552
+03-09-2022 14:17:43.514 [java] [ERROR] Only local connections are allowed.
+03-09-2022 14:17:43.514 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+03-09-2022 14:17:43.514 [java] [ERROR] ChromeDriver was started successfully.
+03-09-2022 14:17:43.967 [java] [ERROR] Sep 03, 2022 2:17:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+03-09-2022 14:17:43.967 [java] [ERROR] INFO: Detected dialect: W3C
+03-09-2022 14:17:43.986 [Gauge] [INFO] # Testing
+03-09-2022 14:17:43.993 [Gauge] [INFO] ## Xenonstack
+03-09-2022 14:17:44.006 [Gauge] [DEBUG] * Navigate to the site
+03-09-2022 14:17:44.015 [java] [DEBUG] Executing 'Navigate to the site' using 'class StepImplementation.navigateToTheSite
+03-09-2022 14:17:45.509 [Gauge] [DEBUG] * Enter username and password
+03-09-2022 14:17:45.512 [java] [DEBUG] Executing 'Enter username and password' using 'class StepImplementation.enterUsernameAndPassword
+03-09-2022 14:17:45.773 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2022 14:17:45.778 [html-report] [INFO] Successfully generated html-report to => /home/xs240-gopmal/Desktop/Gopal/reports/html-report/index.html
+03-09-2022 14:17:45.778 [html-report] [DEBUG] Done generating HTML report using theme from /home/xs240-gopmal/.gauge/plugins/html-report/4.1.4/themes/default
+03-09-2022 14:17:45.778 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2022 14:17:45.782 [java] [DEBUG] Killing Java runner...
+03-09-2022 14:17:45.783 [java] [DEBUG] Stopping execution pool...
+03-09-2022 14:17:45.783 [java] [DEBUG] Shutting down grpc server...
+03-09-2022 14:17:45.790 [java] [DEBUG] Runner killed gracefully.
+03-09-2022 14:17:46.190 [Gauge] [DEBUG] Runner with PID:549719 has exited
+03-09-2022 14:17:46.191 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 14:17:46.191 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 14:17:46.191 [Gauge] [INFO] 
+Total time taken: 2.588s
+03-09-2022 14:18:38.096 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/xs240-gopmal/Desktop/Gopal/.gauge/screenshots
+03-09-2022 14:18:38.096 [Gauge] [DEBUG] Plugin java is already installed.
+03-09-2022 14:18:38.096 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2022 14:18:38.096 [Gauge] [DEBUG] Parsing started.
+03-09-2022 14:18:38.096 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2022 14:18:38.097 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2022 14:18:38.097 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2022 14:18:38.097 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2022 14:18:38.097 [Gauge] [DEBUG] Parsing completed.
+03-09-2022 14:18:38.099 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-09-2022 14:18:38.099 [java] [DEBUG] PATH: /opt/maven/bin:/opt/gradle/gradle-6.6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xs240-gopmal/.gauge/plugins/screenshot/0.1.0
+03-09-2022 14:18:38.099 [java] [DEBUG] JAVA_HOME: 
+03-09-2022 14:18:38.099 [java] [DEBUG] gauge_project_root: 
+03-09-2022 14:18:38.099 [java] [DEBUG] gauge_parallel_streams_count: 
+03-09-2022 14:18:38.099 [java] [DEBUG] gauge_reports_dir: reports
+03-09-2022 14:18:38.099 [java] [DEBUG] overwrite_reports: true
+03-09-2022 14:18:38.099 [java] [DEBUG] logs_directory: logs
+03-09-2022 14:18:38.099 [java] [DEBUG] enable_multithreading: false
+03-09-2022 14:18:38.099 [java] [DEBUG] gauge_specs_dir: specs
+03-09-2022 14:18:38.099 [java] [DEBUG] csv_delimiter: ,
+03-09-2022 14:18:38.099 [java] [DEBUG] gauge_java_home: 
+03-09-2022 14:18:38.099 [java] [DEBUG] gauge_custom_build_path: 
+03-09-2022 14:18:38.099 [java] [DEBUG] gauge_additional_libs: libs/*
+03-09-2022 14:18:38.099 [java] [DEBUG] gauge_jvm_args: 
+03-09-2022 14:18:38.099 [java] [DEBUG] gauge_custom_compile_dir: 
+03-09-2022 14:18:38.099 [java] [DEBUG] gauge_clear_state_level: scenario
+03-09-2022 14:18:38.099 [java] [DEBUG] ***** END *****
+03-09-2022 14:18:38.667 [Gauge] [DEBUG] Checking updates...
+03-09-2022 14:18:38.667 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 14:18:39.107 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 14:18:39.186 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 14:18:39.265 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 14:18:39.509 [java] [ERROR] Installed version of gauge-java (0.9.1) does not match with dependency gauge-java (0.7.15) specified in pom.xml file
+03-09-2022 14:18:39.509 [java] [DEBUG] classpath set to /home/xs240-gopmal/Desktop/Gopal/target/test-classes:/home/xs240-gopmal/Desktop/Gopal/target/classes:/home/xs240-gopmal/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/home/xs240-gopmal/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/home/xs240-gopmal/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/xs240-gopmal/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/xs240-gopmal/.m2/repository/org/json/json/20210307/json-20210307.jar:/home/xs240-gopmal/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/xs240-gopmal/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/home/xs240-gopmal/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/home/xs240-gopmal/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/xs240-gopmal/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/home/xs240-gopmal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/home/xs240-gopmal/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/xs240-gopmal/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/xs240-gopmal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/xs240-gopmal/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.0/webdrivermanager-4.4.0.jar:/home/xs240-gopmal/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/xs240-gopmal/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/home/xs240-gopmal/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/xs240-gopmal/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/xs240-gopmal/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/xs240-gopmal/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/xs240-gopmal/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+03-09-2022 14:18:39.509 [java] [DEBUG] found java executable in java
+03-09-2022 14:18:39.509 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-09-2022 14:18:39.509 [java] [DEBUG] stdout/stderr is logged to logs/550783-java.out
+03-09-2022 14:18:39.570 [java] [DEBUG] multithreading is set to false
+03-09-2022 14:18:39.765 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-09-2022 14:18:39.822 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-09-2022 14:18:39.822 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-09-2022 14:18:39.822 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-09-2022 14:18:39.981 [java] [DEBUG] gauge-java took 411milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-09-2022 14:18:39.981 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 411
+03-09-2022 14:18:39.981 [java] [DEBUG] starting gRPC server...
+03-09-2022 14:18:40.039 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 37101
+03-09-2022 14:18:40.104 [Gauge] [DEBUG] Successfully made the connection with runner with port: 37101
+03-09-2022 14:18:40.104 [Gauge] [DEBUG] Validation started.
+03-09-2022 14:18:40.766 [java] [DEBUG] Scanning packages for steps
+03-09-2022 14:18:40.775 [java] [DEBUG] Comparing 'StepImplementation.navigateToTheSite' and 'StepImplementation.navigateToTheSite'
+03-09-2022 14:18:40.775 [java] [DEBUG] Found Navigate to the site in current project scope.
+03-09-2022 14:18:40.775 [java] [DEBUG] Comparing 'StepImplementation.enterUsernameAndPassword' and 'StepImplementation.enterUsernameAndPassword'
+03-09-2022 14:18:40.775 [java] [DEBUG] Found Enter username and password in current project scope.
+03-09-2022 14:18:40.775 [java] [DEBUG] Scanning packages for hooks
+03-09-2022 14:18:40.777 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-09-2022 14:18:40.777 [java] [DEBUG] 	Enter username and password : public void enterUsernameAndPassword() throws InterruptedException
+03-09-2022 14:18:40.777 [java] [DEBUG] 	Navigate to the site : public void navigateToTheSite()
+03-09-2022 14:18:41.477 [Gauge] [DEBUG] Validation completed.
+03-09-2022 14:18:41.477 [Gauge] [DEBUG] Run started
+03-09-2022 14:18:41.477 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2022 14:18:41.480 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 35359
+03-09-2022 14:18:41.481 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 35359
+03-09-2022 14:18:41.481 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2022 14:18:41.800 [java] [ERROR] Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 26197
+03-09-2022 14:18:41.800 [java] [ERROR] Only local connections are allowed.
+03-09-2022 14:18:41.800 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+03-09-2022 14:18:41.800 [java] [ERROR] ChromeDriver was started successfully.
+03-09-2022 14:18:42.230 [java] [ERROR] Sep 03, 2022 2:18:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+03-09-2022 14:18:42.230 [java] [ERROR] INFO: Detected dialect: W3C
+03-09-2022 14:18:42.245 [Gauge] [INFO] # Testing
+03-09-2022 14:18:42.256 [Gauge] [INFO] ## Xenonstack
+03-09-2022 14:18:42.269 [Gauge] [DEBUG] * Navigate to the site
+03-09-2022 14:18:42.272 [java] [DEBUG] Executing 'Navigate to the site' using 'class StepImplementation.navigateToTheSite
+03-09-2022 14:18:43.457 [Gauge] [DEBUG] * Enter username and password
+03-09-2022 14:18:43.461 [java] [DEBUG] Executing 'Enter username and password' using 'class StepImplementation.enterUsernameAndPassword
+03-09-2022 14:18:49.659 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2022 14:18:49.664 [html-report] [INFO] Successfully generated html-report to => /home/xs240-gopmal/Desktop/Gopal/reports/html-report/index.html
+03-09-2022 14:18:49.664 [html-report] [DEBUG] Done generating HTML report using theme from /home/xs240-gopmal/.gauge/plugins/html-report/4.1.4/themes/default
+03-09-2022 14:18:49.664 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2022 14:18:49.669 [java] [DEBUG] Killing Java runner...
+03-09-2022 14:18:49.670 [java] [DEBUG] Stopping execution pool...
+03-09-2022 14:18:49.670 [java] [DEBUG] Shutting down grpc server...
+03-09-2022 14:18:49.674 [java] [DEBUG] Runner killed gracefully.
+03-09-2022 14:18:50.075 [Gauge] [DEBUG] Runner with PID:550783 has exited
+03-09-2022 14:18:50.075 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 14:18:50.075 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 14:18:50.075 [Gauge] [INFO] 
+Total time taken: 8.181s
+03-09-2022 14:21:15.090 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/xs240-gopmal/Desktop/Gopal/.gauge/screenshots
+03-09-2022 14:21:15.090 [Gauge] [DEBUG] Plugin java is already installed.
+03-09-2022 14:21:15.091 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2022 14:21:15.091 [Gauge] [DEBUG] Parsing started.
+03-09-2022 14:21:15.091 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2022 14:21:15.091 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2022 14:21:15.091 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2022 14:21:15.092 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2022 14:21:15.092 [Gauge] [DEBUG] Parsing completed.
+03-09-2022 14:21:15.098 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-09-2022 14:21:15.098 [java] [DEBUG] PATH: /opt/maven/bin:/opt/gradle/gradle-6.6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xs240-gopmal/.gauge/plugins/screenshot/0.1.0
+03-09-2022 14:21:15.098 [java] [DEBUG] JAVA_HOME: 
+03-09-2022 14:21:15.098 [java] [DEBUG] gauge_project_root: 
+03-09-2022 14:21:15.098 [java] [DEBUG] gauge_parallel_streams_count: 
+03-09-2022 14:21:15.098 [java] [DEBUG] gauge_reports_dir: reports
+03-09-2022 14:21:15.098 [java] [DEBUG] overwrite_reports: true
+03-09-2022 14:21:15.098 [java] [DEBUG] logs_directory: logs
+03-09-2022 14:21:15.098 [java] [DEBUG] enable_multithreading: false
+03-09-2022 14:21:15.098 [java] [DEBUG] gauge_specs_dir: specs
+03-09-2022 14:21:15.098 [java] [DEBUG] csv_delimiter: ,
+03-09-2022 14:21:15.098 [java] [DEBUG] gauge_java_home: 
+03-09-2022 14:21:15.098 [java] [DEBUG] gauge_custom_build_path: 
+03-09-2022 14:21:15.098 [java] [DEBUG] gauge_additional_libs: libs/*
+03-09-2022 14:21:15.098 [java] [DEBUG] gauge_jvm_args: 
+03-09-2022 14:21:15.098 [java] [DEBUG] gauge_custom_compile_dir: 
+03-09-2022 14:21:15.098 [java] [DEBUG] gauge_clear_state_level: scenario
+03-09-2022 14:21:15.098 [java] [DEBUG] ***** END *****
+03-09-2022 14:21:15.769 [Gauge] [DEBUG] Checking updates...
+03-09-2022 14:21:15.769 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 14:21:16.371 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 14:21:16.468 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 14:21:16.555 [java] [ERROR] Installed version of gauge-java (0.9.1) does not match with dependency gauge-java (0.7.15) specified in pom.xml file
+03-09-2022 14:21:16.555 [java] [DEBUG] classpath set to /home/xs240-gopmal/Desktop/Gopal/target/test-classes:/home/xs240-gopmal/Desktop/Gopal/target/classes:/home/xs240-gopmal/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/home/xs240-gopmal/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/home/xs240-gopmal/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/xs240-gopmal/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/xs240-gopmal/.m2/repository/org/json/json/20210307/json-20210307.jar:/home/xs240-gopmal/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/xs240-gopmal/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/home/xs240-gopmal/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/home/xs240-gopmal/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/xs240-gopmal/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/home/xs240-gopmal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/home/xs240-gopmal/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/xs240-gopmal/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/xs240-gopmal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/xs240-gopmal/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.0/webdrivermanager-4.4.0.jar:/home/xs240-gopmal/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/xs240-gopmal/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/home/xs240-gopmal/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/xs240-gopmal/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/xs240-gopmal/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/xs240-gopmal/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/xs240-gopmal/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+03-09-2022 14:21:16.555 [java] [DEBUG] found java executable in java
+03-09-2022 14:21:16.555 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-09-2022 14:21:16.555 [java] [DEBUG] stdout/stderr is logged to logs/553779-java.out
+03-09-2022 14:21:16.579 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 14:21:16.612 [java] [DEBUG] multithreading is set to false
+03-09-2022 14:21:16.806 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-09-2022 14:21:16.865 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-09-2022 14:21:16.865 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-09-2022 14:21:16.865 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-09-2022 14:21:17.016 [java] [DEBUG] gauge-java took 404milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-09-2022 14:21:17.017 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 404
+03-09-2022 14:21:17.017 [java] [DEBUG] starting gRPC server...
+03-09-2022 14:21:17.077 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 44669
+03-09-2022 14:21:17.149 [Gauge] [DEBUG] Successfully made the connection with runner with port: 44669
+03-09-2022 14:21:17.149 [Gauge] [DEBUG] Validation started.
+03-09-2022 14:21:17.957 [java] [DEBUG] Scanning packages for steps
+03-09-2022 14:21:17.964 [java] [DEBUG] Comparing 'StepImplementation.navigateToTheSite' and 'StepImplementation.navigateToTheSite'
+03-09-2022 14:21:17.964 [java] [DEBUG] Found Navigate to the site in current project scope.
+03-09-2022 14:21:17.964 [java] [DEBUG] Comparing 'StepImplementation.enterUsernameAndPassword' and 'StepImplementation.enterUsernameAndPassword'
+03-09-2022 14:21:17.964 [java] [DEBUG] Found Enter username and password in current project scope.
+03-09-2022 14:21:17.964 [java] [DEBUG] Comparing 'StepImplementation.navigateToModule2' and 'StepImplementation.navigateToModule2'
+03-09-2022 14:21:17.964 [java] [DEBUG] Found Navigate to Module2 in current project scope.
+03-09-2022 14:21:17.964 [java] [DEBUG] Scanning packages for hooks
+03-09-2022 14:21:17.966 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-09-2022 14:21:17.967 [java] [DEBUG] 	Enter username and password : public void enterUsernameAndPassword() throws InterruptedException
+03-09-2022 14:21:17.967 [java] [DEBUG] 	Navigate to the site : public void navigateToTheSite()
+03-09-2022 14:21:17.967 [java] [DEBUG] 	Navigate to Module2 : public void navigateToModule2()
+03-09-2022 14:21:18.715 [Gauge] [DEBUG] Validation completed.
+03-09-2022 14:21:18.715 [Gauge] [DEBUG] Run started
+03-09-2022 14:21:18.715 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2022 14:21:18.718 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 33461
+03-09-2022 14:21:18.719 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 33461
+03-09-2022 14:21:18.719 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2022 14:21:19.032 [java] [ERROR] Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 7599
+03-09-2022 14:21:19.032 [java] [ERROR] Only local connections are allowed.
+03-09-2022 14:21:19.032 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+03-09-2022 14:21:19.032 [java] [ERROR] ChromeDriver was started successfully.
+03-09-2022 14:21:19.439 [java] [ERROR] Sep 03, 2022 2:21:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+03-09-2022 14:21:19.439 [java] [ERROR] INFO: Detected dialect: W3C
+03-09-2022 14:21:19.462 [Gauge] [INFO] # Testing
+03-09-2022 14:21:19.478 [Gauge] [INFO] ## Xenonstack
+03-09-2022 14:21:19.490 [Gauge] [DEBUG] * Navigate to the site
+03-09-2022 14:21:19.515 [java] [DEBUG] Executing 'Navigate to the site' using 'class StepImplementation.navigateToTheSite
+03-09-2022 14:21:20.852 [Gauge] [DEBUG] * Enter username and password
+03-09-2022 14:21:20.857 [java] [DEBUG] Executing 'Enter username and password' using 'class StepImplementation.enterUsernameAndPassword
+03-09-2022 14:21:27.053 [Gauge] [DEBUG] * Navigate to Module2
+03-09-2022 14:21:27.062 [java] [DEBUG] Executing 'Navigate to Module2' using 'class StepImplementation.navigateToModule2
+03-09-2022 14:21:27.244 [java] [ERROR] Gtk-Message: 14:21:27.244: Failed to load module "canberra-gtk-module"
+03-09-2022 14:21:27.509 [Gauge] [ERROR] 
+Failed Step: Navigate to Module2
+03-09-2022 14:21:27.509 [Gauge] [ERROR] Specification: specs/example.spec:6
+03-09-2022 14:21:27.509 [Gauge] [ERROR] Error Message: java.lang.UnsupportedOperationException: Provide custom implementation
+03-09-2022 14:21:27.509 [Gauge] [ERROR] Stacktrace: 
+StepImplementation.navigateToModule2(StepImplementation.java:30)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:28)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44)
+com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:829)
+03-09-2022 14:21:27.588 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2022 14:21:27.593 [html-report] [INFO] Successfully generated html-report to => /home/xs240-gopmal/Desktop/Gopal/reports/html-report/index.html
+03-09-2022 14:21:27.593 [html-report] [DEBUG] Done generating HTML report using theme from /home/xs240-gopmal/.gauge/plugins/html-report/4.1.4/themes/default
+03-09-2022 14:21:27.594 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2022 14:21:27.595 [java] [DEBUG] Killing Java runner...
+03-09-2022 14:21:27.596 [java] [DEBUG] Stopping execution pool...
+03-09-2022 14:21:27.596 [java] [DEBUG] Shutting down grpc server...
+03-09-2022 14:21:27.601 [java] [DEBUG] Runner killed gracefully.
+03-09-2022 14:21:28.002 [Gauge] [DEBUG] Runner with PID:553779 has exited
+03-09-2022 14:21:28.002 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+03-09-2022 14:21:28.002 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+03-09-2022 14:21:28.002 [Gauge] [INFO] 
+Total time taken: 8.873s
+03-09-2022 14:35:19.001 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/xs240-gopmal/Desktop/Gopal/.gauge/screenshots
+03-09-2022 14:35:19.002 [Gauge] [DEBUG] Plugin java is already installed.
+03-09-2022 14:35:19.002 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2022 14:35:19.002 [Gauge] [DEBUG] Parsing started.
+03-09-2022 14:35:19.002 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2022 14:35:19.003 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2022 14:35:19.003 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2022 14:35:19.003 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2022 14:35:19.003 [Gauge] [DEBUG] Parsing completed.
+03-09-2022 14:35:19.005 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-09-2022 14:35:19.005 [java] [DEBUG] PATH: /opt/maven/bin:/opt/gradle/gradle-6.6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xs240-gopmal/.gauge/plugins/screenshot/0.1.0
+03-09-2022 14:35:19.005 [java] [DEBUG] JAVA_HOME: 
+03-09-2022 14:35:19.005 [java] [DEBUG] gauge_project_root: 
+03-09-2022 14:35:19.005 [java] [DEBUG] gauge_parallel_streams_count: 
+03-09-2022 14:35:19.005 [java] [DEBUG] gauge_reports_dir: reports
+03-09-2022 14:35:19.005 [java] [DEBUG] overwrite_reports: true
+03-09-2022 14:35:19.005 [java] [DEBUG] logs_directory: logs
+03-09-2022 14:35:19.005 [java] [DEBUG] enable_multithreading: false
+03-09-2022 14:35:19.005 [java] [DEBUG] gauge_specs_dir: specs
+03-09-2022 14:35:19.005 [java] [DEBUG] csv_delimiter: ,
+03-09-2022 14:35:19.005 [java] [DEBUG] gauge_java_home: 
+03-09-2022 14:35:19.005 [java] [DEBUG] gauge_custom_build_path: 
+03-09-2022 14:35:19.005 [java] [DEBUG] gauge_additional_libs: libs/*
+03-09-2022 14:35:19.005 [java] [DEBUG] gauge_jvm_args: 
+03-09-2022 14:35:19.005 [java] [DEBUG] gauge_custom_compile_dir: 
+03-09-2022 14:35:19.005 [java] [DEBUG] gauge_clear_state_level: scenario
+03-09-2022 14:35:19.005 [java] [DEBUG] ***** END *****
+03-09-2022 14:35:19.925 [Gauge] [DEBUG] Checking updates...
+03-09-2022 14:35:19.928 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 14:35:20.271 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 14:35:20.413 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 14:35:20.528 [java] [ERROR] Installed version of gauge-java (0.9.1) does not match with dependency gauge-java (0.7.15) specified in pom.xml file
+03-09-2022 14:35:20.528 [java] [DEBUG] classpath set to /home/xs240-gopmal/Desktop/Gopal/target/test-classes:/home/xs240-gopmal/Desktop/Gopal/target/classes:/home/xs240-gopmal/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/home/xs240-gopmal/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/home/xs240-gopmal/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/xs240-gopmal/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/xs240-gopmal/.m2/repository/org/json/json/20210307/json-20210307.jar:/home/xs240-gopmal/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/xs240-gopmal/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/home/xs240-gopmal/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/home/xs240-gopmal/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/xs240-gopmal/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/home/xs240-gopmal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/home/xs240-gopmal/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/xs240-gopmal/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/xs240-gopmal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/xs240-gopmal/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.0/webdrivermanager-4.4.0.jar:/home/xs240-gopmal/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/xs240-gopmal/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/home/xs240-gopmal/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/xs240-gopmal/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/xs240-gopmal/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/xs240-gopmal/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/xs240-gopmal/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+03-09-2022 14:35:20.528 [java] [DEBUG] found java executable in java
+03-09-2022 14:35:20.528 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-09-2022 14:35:20.528 [java] [DEBUG] stdout/stderr is logged to logs/563437-java.out
+03-09-2022 14:35:20.566 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 14:35:20.606 [java] [DEBUG] multithreading is set to false
+03-09-2022 14:35:20.813 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-09-2022 14:35:20.870 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-09-2022 14:35:20.870 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-09-2022 14:35:20.870 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-09-2022 14:35:21.040 [java] [DEBUG] gauge-java took 433milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-09-2022 14:35:21.040 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 433
+03-09-2022 14:35:21.040 [java] [DEBUG] starting gRPC server...
+03-09-2022 14:35:21.097 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 35941
+03-09-2022 14:35:21.162 [Gauge] [DEBUG] Successfully made the connection with runner with port: 35941
+03-09-2022 14:35:21.162 [Gauge] [DEBUG] Validation started.
+03-09-2022 14:35:21.821 [java] [DEBUG] Scanning packages for steps
+03-09-2022 14:35:21.828 [java] [DEBUG] Comparing 'StepImplementation.navigateToTheSite' and 'StepImplementation.navigateToTheSite'
+03-09-2022 14:35:21.828 [java] [DEBUG] Found Navigate to the site in current project scope.
+03-09-2022 14:35:21.828 [java] [DEBUG] Comparing 'StepImplementation.enterUsernameAndPassword' and 'StepImplementation.enterUsernameAndPassword'
+03-09-2022 14:35:21.828 [java] [DEBUG] Found Enter username and password in current project scope.
+03-09-2022 14:35:21.828 [java] [DEBUG] Scanning packages for hooks
+03-09-2022 14:35:21.831 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-09-2022 14:35:21.831 [java] [DEBUG] 	Enter username and password : public void enterUsernameAndPassword() throws InterruptedException
+03-09-2022 14:35:21.831 [java] [DEBUG] 	Navigate to the site : public void navigateToTheSite()
+03-09-2022 14:35:22.523 [Gauge] [DEBUG] Validation completed.
+03-09-2022 14:35:22.523 [Gauge] [DEBUG] Run started
+03-09-2022 14:35:22.523 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2022 14:35:22.528 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 42381
+03-09-2022 14:35:22.529 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 42381
+03-09-2022 14:35:22.529 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2022 14:35:23.030 [java] [ERROR] Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 5922
+03-09-2022 14:35:23.031 [java] [ERROR] Only local connections are allowed.
+03-09-2022 14:35:23.034 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+03-09-2022 14:35:23.034 [java] [ERROR] ChromeDriver was started successfully.
+03-09-2022 14:35:23.442 [java] [ERROR] Sep 03, 2022 2:35:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+03-09-2022 14:35:23.442 [java] [ERROR] INFO: Detected dialect: W3C
+03-09-2022 14:35:23.458 [Gauge] [INFO] # Testing
+03-09-2022 14:35:23.470 [Gauge] [INFO] ## Xenonstack
+03-09-2022 14:35:23.479 [Gauge] [DEBUG] * Navigate to the site
+03-09-2022 14:35:23.484 [java] [DEBUG] Executing 'Navigate to the site' using 'class StepImplementation.navigateToTheSite
+03-09-2022 14:35:25.403 [Gauge] [DEBUG] * Enter username and password
+03-09-2022 14:35:25.419 [java] [DEBUG] Executing 'Enter username and password' using 'class StepImplementation.enterUsernameAndPassword
+03-09-2022 14:35:31.673 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2022 14:35:31.677 [html-report] [INFO] Successfully generated html-report to => /home/xs240-gopmal/Desktop/Gopal/reports/html-report/index.html
+03-09-2022 14:35:31.677 [html-report] [DEBUG] Done generating HTML report using theme from /home/xs240-gopmal/.gauge/plugins/html-report/4.1.4/themes/default
+03-09-2022 14:35:31.677 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2022 14:35:31.678 [java] [DEBUG] Killing Java runner...
+03-09-2022 14:35:31.679 [java] [DEBUG] Stopping execution pool...
+03-09-2022 14:35:31.679 [java] [DEBUG] Shutting down grpc server...
+03-09-2022 14:35:31.684 [java] [DEBUG] Runner killed gracefully.
+03-09-2022 14:35:32.083 [Gauge] [DEBUG] Runner with PID:563437 has exited
+03-09-2022 14:35:32.083 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 14:35:32.083 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 14:35:32.083 [Gauge] [INFO] 
+Total time taken: 9.149s
+03-09-2022 15:01:58.047 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/xs240-gopmal/Desktop/Gopal/.gauge/screenshots
+03-09-2022 15:01:58.047 [Gauge] [DEBUG] Plugin java is already installed.
+03-09-2022 15:01:58.048 [Gauge] [DEBUG] Plugin html-report is already installed.
+03-09-2022 15:01:58.048 [Gauge] [DEBUG] Parsing started.
+03-09-2022 15:01:58.048 [Gauge] [DEBUG] Started concepts parsing.
+03-09-2022 15:01:58.048 [Gauge] [DEBUG] 0 concepts parsing completed.
+03-09-2022 15:01:58.048 [Gauge] [DEBUG] Started specifications parsing.
+03-09-2022 15:01:58.049 [Gauge] [DEBUG] 1 specifications parsing completed.
+03-09-2022 15:01:58.049 [Gauge] [DEBUG] Parsing completed.
+03-09-2022 15:01:58.051 [java] [DEBUG] ***** Printing Properties/Env Values *****
+03-09-2022 15:01:58.051 [java] [DEBUG] PATH: /opt/maven/bin:/opt/gradle/gradle-6.6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xs240-gopmal/.gauge/plugins/screenshot/0.1.0
+03-09-2022 15:01:58.051 [java] [DEBUG] JAVA_HOME: 
+03-09-2022 15:01:58.051 [java] [DEBUG] gauge_project_root: 
+03-09-2022 15:01:58.051 [java] [DEBUG] gauge_parallel_streams_count: 
+03-09-2022 15:01:58.051 [java] [DEBUG] gauge_reports_dir: reports
+03-09-2022 15:01:58.051 [java] [DEBUG] overwrite_reports: true
+03-09-2022 15:01:58.051 [java] [DEBUG] logs_directory: logs
+03-09-2022 15:01:58.051 [java] [DEBUG] enable_multithreading: false
+03-09-2022 15:01:58.051 [java] [DEBUG] gauge_specs_dir: specs
+03-09-2022 15:01:58.051 [java] [DEBUG] csv_delimiter: ,
+03-09-2022 15:01:58.051 [java] [DEBUG] gauge_java_home: 
+03-09-2022 15:01:58.051 [java] [DEBUG] gauge_custom_build_path: 
+03-09-2022 15:01:58.051 [java] [DEBUG] gauge_additional_libs: libs/*
+03-09-2022 15:01:58.051 [java] [DEBUG] gauge_jvm_args: 
+03-09-2022 15:01:58.051 [java] [DEBUG] gauge_custom_compile_dir: 
+03-09-2022 15:01:58.051 [java] [DEBUG] gauge_clear_state_level: scenario
+03-09-2022 15:01:58.051 [java] [DEBUG] ***** END *****
+03-09-2022 15:01:58.974 [Gauge] [DEBUG] Checking updates...
+03-09-2022 15:01:58.974 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 15:01:59.312 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 15:01:59.398 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 15:01:59.477 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,js,screenshot&o=linux&a=amd64
+03-09-2022 15:01:59.479 [java] [ERROR] Installed version of gauge-java (0.9.1) does not match with dependency gauge-java (0.7.15) specified in pom.xml file
+03-09-2022 15:01:59.479 [java] [DEBUG] classpath set to /home/xs240-gopmal/Desktop/Gopal/target/test-classes:/home/xs240-gopmal/Desktop/Gopal/target/classes:/home/xs240-gopmal/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.15/gauge-java-0.7.15.jar:/home/xs240-gopmal/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/home/xs240-gopmal/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/xs240-gopmal/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/xs240-gopmal/.m2/repository/org/json/json/20210307/json-20210307.jar:/home/xs240-gopmal/.m2/repository/com/google/protobuf/protobuf-java/3.15.8/protobuf-java-3.15.8.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/xs240-gopmal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/xs240-gopmal/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/home/xs240-gopmal/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/home/xs240-gopmal/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-netty-shaded/1.37.0/grpc-netty-shaded-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-core/1.37.0/grpc-core-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/xs240-gopmal/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf/1.37.0/grpc-protobuf-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-api/1.37.0/grpc-api-1.37.0.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-context/1.37.0/grpc-context-1.37.0.jar:/home/xs240-gopmal/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-protobuf-lite/1.37.0/grpc-protobuf-lite-1.37.0.jar:/home/xs240-gopmal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.19/animal-sniffer-annotations-1.19.jar:/home/xs240-gopmal/.m2/repository/io/grpc/grpc-stub/1.37.0/grpc-stub-1.37.0.jar:/home/xs240-gopmal/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/xs240-gopmal/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/xs240-gopmal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/xs240-gopmal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/xs240-gopmal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/xs240-gopmal/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.0/webdrivermanager-4.4.0.jar:/home/xs240-gopmal/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/xs240-gopmal/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/home/xs240-gopmal/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/home/xs240-gopmal/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/xs240-gopmal/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/home/xs240-gopmal/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/xs240-gopmal/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/xs240-gopmal/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/xs240-gopmal/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/xs240-gopmal/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+03-09-2022 15:01:59.479 [java] [DEBUG] found java executable in java
+03-09-2022 15:01:59.479 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+03-09-2022 15:01:59.479 [java] [DEBUG] stdout/stderr is logged to logs/583649-java.out
+03-09-2022 15:01:59.558 [java] [DEBUG] multithreading is set to false
+03-09-2022 15:01:59.752 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+03-09-2022 15:01:59.812 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+03-09-2022 15:01:59.812 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+03-09-2022 15:01:59.812 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+03-09-2022 15:01:59.974 [java] [DEBUG] gauge-java took 416milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+03-09-2022 15:01:59.974 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 416
+03-09-2022 15:01:59.974 [java] [DEBUG] starting gRPC server...
+03-09-2022 15:02:00.033 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 35183
+03-09-2022 15:02:00.097 [Gauge] [DEBUG] Successfully made the connection with runner with port: 35183
+03-09-2022 15:02:00.097 [Gauge] [DEBUG] Validation started.
+03-09-2022 15:02:00.927 [java] [DEBUG] Scanning packages for steps
+03-09-2022 15:02:00.935 [java] [DEBUG] Comparing 'StepImplementation.navigateToTheSite' and 'StepImplementation.navigateToTheSite'
+03-09-2022 15:02:00.935 [java] [DEBUG] Found Navigate to the site in current project scope.
+03-09-2022 15:02:00.935 [java] [DEBUG] Comparing 'StepImplementation.enterUsernameAndPassword' and 'StepImplementation.enterUsernameAndPassword'
+03-09-2022 15:02:00.935 [java] [DEBUG] Found Enter username and password in current project scope.
+03-09-2022 15:02:00.935 [java] [DEBUG] Scanning packages for hooks
+03-09-2022 15:02:00.938 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+03-09-2022 15:02:00.938 [java] [DEBUG] 	Enter username and password : public void enterUsernameAndPassword() throws InterruptedException
+03-09-2022 15:02:00.938 [java] [DEBUG] 	Navigate to the site : public void navigateToTheSite()
+03-09-2022 15:02:01.706 [Gauge] [DEBUG] Validation completed.
+03-09-2022 15:02:01.706 [Gauge] [DEBUG] Run started
+03-09-2022 15:02:01.707 [Gauge] [DEBUG] Starting Html Report plugin
+03-09-2022 15:02:01.710 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 34181
+03-09-2022 15:02:01.710 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 34181
+03-09-2022 15:02:01.711 [Gauge] [DEBUG] Initialising suite data store.
+03-09-2022 15:02:02.017 [java] [ERROR] Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 10094
+03-09-2022 15:02:02.017 [java] [ERROR] Only local connections are allowed.
+03-09-2022 15:02:02.017 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+03-09-2022 15:02:02.018 [java] [ERROR] ChromeDriver was started successfully.
+03-09-2022 15:02:02.432 [java] [ERROR] Sep 03, 2022 3:02:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+03-09-2022 15:02:02.432 [java] [ERROR] INFO: Detected dialect: W3C
+03-09-2022 15:02:02.448 [Gauge] [INFO] # Testing
+03-09-2022 15:02:02.455 [Gauge] [INFO] ## Xenonstack
+03-09-2022 15:02:02.476 [Gauge] [DEBUG] * Navigate to the site
+03-09-2022 15:02:02.480 [java] [DEBUG] Executing 'Navigate to the site' using 'class StepImplementation.navigateToTheSite
+03-09-2022 15:02:04.406 [Gauge] [DEBUG] * Enter username and password
+03-09-2022 15:02:04.410 [java] [DEBUG] Executing 'Enter username and password' using 'class StepImplementation.enterUsernameAndPassword
+03-09-2022 15:02:10.668 [html-report] [DEBUG] Transformed SuiteResult to report structure
+03-09-2022 15:02:10.673 [html-report] [INFO] Successfully generated html-report to => /home/xs240-gopmal/Desktop/Gopal/reports/html-report/index.html
+03-09-2022 15:02:10.673 [html-report] [DEBUG] Done generating HTML report using theme from /home/xs240-gopmal/.gauge/plugins/html-report/4.1.4/themes/default
+03-09-2022 15:02:10.674 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+03-09-2022 15:02:10.675 [java] [DEBUG] Killing Java runner...
+03-09-2022 15:02:10.675 [java] [DEBUG] Stopping execution pool...
+03-09-2022 15:02:10.675 [java] [DEBUG] Shutting down grpc server...
+03-09-2022 15:02:10.681 [java] [DEBUG] Runner killed gracefully.
+03-09-2022 15:02:11.081 [Gauge] [DEBUG] Runner with PID:583649 has exited
+03-09-2022 15:02:11.081 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 15:02:11.081 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+03-09-2022 15:02:11.081 [Gauge] [INFO] 
+Total time taken: 8.961s

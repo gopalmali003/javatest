@@ -1,0 +1,8 @@
+[
+	"gauge",
+	"run",
+	"--hide-suggestion",
+	"--simple-console",
+	"--dir=/home/xs240-gopmal/Desktop/Gopal",
+	"/home/xs240-gopmal/Desktop/Gopal/specs/example.spec:3"
+]
