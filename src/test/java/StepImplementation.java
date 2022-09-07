@@ -24,7 +24,7 @@ public class StepImplementation {
 		
 		Driver.webDriver.findElement(By.id("email")).sendKeys("2018cscloudgopal6699@poornima.edu.in");
 		Thread.sleep(2000);
-		Driver.webDriver.findElement(By.id("password")).sendKeys("J5prime@khushi");
+		Driver.webDriver.findElement(By.id("password")).sendKeys("J5prime@******");
 		Thread.sleep(2000);
 		Driver.webDriver.findElement(By.id("send-invite")).submit();
 		Thread.sleep(2000);
